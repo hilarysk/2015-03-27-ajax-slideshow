@@ -1,0 +1,152 @@
+.button {
+  border: 0px;
+  font-family: 'Fascinate', cursive;
+  font-style: italic;
+  font-size: 14px;
+  color: rgba(0,0,0,0.8);
+  background-color: transparent;
+  height: 21px;
+}
+
+.button:active {
+	position:relative;
+	top:1px;
+  color: transparent;
+}
+.button:focus {
+  outline:0;
+}
+
+.button:visited {
+  color: transparent;
+}
+
+#backbutton {
+  padding-right: 15px;
+}
+
+#forwardbutton {
+  padding-left: 15px;
+}
+
+#text {
+  font-family: 'Fascinate', cursive;
+  font-size: 24px;
+}
+
+
+
+/* iphone6 display*/
+@media screen and (max-width: 667px) {
+
+  body {
+    background-image: url("/assets/theater_cropped.jpg");
+    background-repeat: no-repeat;
+    background-color: #000;
+  }
+
+  .slidebox {
+    position: relative;
+    width: 384px;
+    color: rgba(0,0,0,0.8);
+    left: 25px;
+    margin-top: 63px;
+    height: 164px;
+  }
+
+  .slidebuttons {
+    position: absolute;
+    bottom: 0;
+    right: 0;  
+  }
+
+}
+
+/* tablet-ish*/
+@media screen and (min-width: 667px) and (max-width:847px){
+  body {
+    background-image: url("/assets/theater_cropped_tablet.jpg");
+    background-repeat: no-repeat;
+    background-color: #000;
+  }
+
+  .slidebox {
+    position: relative;
+    width: 372px;
+    color: rgba(0,0,0,0.8);
+    left: 76px;
+    margin-top: 63px;
+    height: 153px;
+  }
+
+  .slidebuttons {
+    position: absolute;
+    bottom: 0;
+    right: 0;  
+  }
+
+}
+                                                    
+/* standard monitor */                                                                                                                                                            
+@media screen and (min-width: 847px) and (max-width: 1400px){
+  body {
+    background-image: url("/assets/theater_cropped_standard.jpg");
+    background-repeat: no-repeat;
+    background-color: #000;
+  }
+
+  .slidebox {
+    position: relative;
+    width: 408px;
+    color: rgba(0,0,0,0.8);
+    left: 192px;
+    margin-top: 65px;
+    height: 166px;
+  }
+
+  .slidebuttons {
+    position: absolute;
+    bottom: 0;
+    right: 0;  
+  }
+  
+  #text {
+    font-family: 'Fascinate', cursive;
+    font-size: 27px;
+  }
+  
+}
+
+/* superhuge monitor*/
+@media screen and (min-width: 1400px) {
+  body {
+    background-image: url("/assets/theater.jpg");
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-position: center top;
+  }
+
+  .slidebox {
+    position: relative;
+    width: 504px;
+    color: rgba(0,0,0,0.8);
+    left: 22%;
+    margin-top: 97px;
+    height: 207px;
+  }
+
+  .slidebuttons {
+    position: absolute;
+    bottom: 0;
+    right: 0;  
+  }
+  
+  #text {
+    font-family: 'Fascinate', cursive;
+    font-size: 31px;
+  }
+}
+  
+
+  
+
