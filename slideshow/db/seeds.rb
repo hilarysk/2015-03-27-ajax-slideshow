@@ -14,3 +14,4 @@ Slide.create({"slide_text"=>"Q: Why did the programmer quit her job?<br>A: Becau
 Slide.create({"slide_text"=>"Q: What's the object-oriented way to become wealthy?<br>A: Inheritance.", "slide_order"=>6})
 Slide.create({"slide_text"=>"['hip', 'hip']", "slide_order"=>7})
 Slide.create({"slide_text"=>"Q: Why was the statement scared?<br>A: It knew it would soon be executed.", "slide_order"=>8})
+

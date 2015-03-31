@@ -11,7 +11,7 @@ $(document).ready(function() {
     // Get slide information
 
     var sendRequest = function(request) {
-      request.open("get", "http://localhost:3000/slide/" + currentSlide); //this is sending to the right page
+      request.open("get", "https://localhost:3000/slide/" + currentSlide); //this is sending to the right page
       request.send();
       request.addEventListener("load", singleSlide);
     };
@@ -35,7 +35,7 @@ $(document).ready(function() {
     };
     var sendNumRequest = function(request) {
       
-      request.open("get", "http://localhost:3000/slide_num/"); //this is sending to the right page
+      request.open("get", "https://localhost:3000/slide_num/"); //this is sending to the right page
       request.send();
       request.addEventListener("load", getNumber);
     };
