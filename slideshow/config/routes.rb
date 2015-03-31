@@ -1,6 +1,6 @@
 Slideshow::Application.routes.draw do
   
-  get "/slideshow" => 'slides#slideshow'
+  get "/" => 'slides#slideshow'
 
   post "/slides" => 'slides#postslides'
 
