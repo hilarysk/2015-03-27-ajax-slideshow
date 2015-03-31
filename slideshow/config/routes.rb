@@ -7,18 +7,7 @@ Slideshow::Application.routes.draw do
   get "/slide/:slide_order" => 'slides#postorder'
 
   get "/slide_num" => 'slides#slide_num'
-  
-    #
-  # // document.getElementById('youridhere').scrollIntoView(); --> have scroll up on typewriter for daily fem or here?
-  #
-  # //<a href="https://www.flickr.com/photos/picsfromj/3452211626" title="drive-in by Joyce Pedersen, on Flickr"><img src="https://farm4.staticflickr.com/3352/3452211626_2586e54aef_s.jpg" width="75" height="75" alt="drive-in"></a>
-  #
-  #
-  
-  
-  
-  # <%= stylesheet_link_tag    "http://fonts.googleapis.com/css?family=Fascinate", :media => "all" %>
-  
+
   
   # The priority is based upon order of creation:
   # first created -> highest priority.
